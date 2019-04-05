@@ -1,9 +1,11 @@
 This package is a pseudospectral PDE solver for some speccific stiff equations.
 
 When solving a PDE in pseudosepctral methods, it is quite common that it can be finally reduced to the form like this
+
 $$
 \frac{\partial}{\partial t}\hat{\phi}= A \hat{\phi}+ B(\hat{phi})
 $$
+
 where $A$ is a linear stiff part and $B$ is a nonlinear but (hopefully) non-stiff part.
 
 This package is designed to be as compatible with the latest **scipy** as possible.
